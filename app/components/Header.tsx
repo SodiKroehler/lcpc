@@ -6,7 +6,7 @@ export default function Header() {
             <Link href="/"  className={`text-light p-1`}>
                 <span className="text-white">Home</span>
             </Link>
-            <Link href="https://www.panebakerfuneralhome.com/plan-ahead/"  className={`text-light p-1`}>
+            <Link href="https://www.panebakerfuneralhome.com/plan-ahead/online-pre-planning-form"  className={`text-light p-1`}>
                 <span className="text-white">Planning Ahead</span>
             </Link>
             <Link href="https://www.panebakerfuneralhome.com/about-us/cremation-care-center"  className={`text-light p-1`}>
@@ -21,3 +21,6 @@ export default function Header() {
         </div>
     )
 }
+
+
+///footer with address
