@@ -1,8 +1,10 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Header() {
     return (
         <div className={`flex w-full justify-center items-center`}>
+            <Image src='/logo_with_text.png' alt='Picture of the cremation care center' width={1000} height={1000} className={`h-full w-60 object-cover`}></Image>
             <Link href="/"  className={`text-light p-10 text-lg hover:bg-dark`}>
                 <span className="text-white">Home</span>
             </Link>

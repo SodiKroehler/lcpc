@@ -5,8 +5,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "CCC",
-  description: "a description",
+  title: "Cremation Care Center",
+  description: "A website for the cremation care center in Hanover, PA",
 };
 
 export default function RootLayout({
