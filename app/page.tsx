@@ -4,11 +4,12 @@ import Header from "./components/Header"
 export default function Home() {
   return (
     <main className="h-full w-full flex-col items-center justify-between bg-white">
-      <div className={`absolute top-0 mt-40 w-full bg-fg`}>
+      
+      <div className={`absolute top-0 mt-40 w-full`}>
         <Header />
       </div>  
       <Image src='/img.jpg' alt='Picture of the funeral home' width={1000} height={1000} className={`h-lvh w-full object-cover`}></Image>
-      <div className={`flex-row text-center items-center justify-around w-full p-5 bg-fg`}>
+      <div className={`flex-row text-center bg-fg items-center justify-around w-full p-5`}>
         <div className={`text-center p-5 mr-40 inline-block`}>
           <p className={`text-light`} >Panebaker Funeral Home & Cremation Care Center, Inc. </p>
           <p className={`text-light`} >C. Michael Newman, Supervisor </p>
