@@ -17,7 +17,7 @@ const config: Config = {
         'fg': '#4a4862',
         'light': '#FFFFFF',
         'dark': '#FFFFFF',
-        'sec': '#FFFFFF'
+        'sec': '#c1a357'
       }
     },
   },
