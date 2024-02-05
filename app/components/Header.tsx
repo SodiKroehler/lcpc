@@ -14,7 +14,7 @@ export default function Header() {
                 </div>
 
                 <div className={`flex w-40 inline-block`}></div>
-                <Image src='/logo_just_lamp.png' alt='Picture of the cremation care center' width={1000} height={1000} className={`w-48 z-10 absolute -top-16 leftobject-cover`}></Image>
+                <Image src='/logo_just_lamp_bw.png' alt='Picture of the cremation care center' width={1000} height={1000} className={`w-32 z-10 absolute -top-16 leftobject-cover`}></Image>
 
                 <div className={`flex inline-block`}>
                     
